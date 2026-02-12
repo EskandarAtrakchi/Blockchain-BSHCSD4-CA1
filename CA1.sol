@@ -27,10 +27,10 @@ contract myToken is ERC20Interface {
  
 	constructor() public { 
 	 tokenOwner = msg.sender; 
-	 symbol="TOK"; 
-	 name="Fixed supply token"; 
-	 decimals=18; 
-	 _totalSupply = 1000000 * 10**uint(decimals); 
+	 symbol="CA1"; 
+	 name="CA1 Tokens"; 
+	 decimals=0; 
+	 _totalSupply = 200; 
 	 _balances[tokenOwner] = _totalSupply; 
 	 emit Transfer(address(0), tokenOwner, _totalSupply); 
 	} 
