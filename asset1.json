@@ -1,0 +1,15 @@
+{
+  "name": "NFTCA1",
+  "description": "very expensive NFT ape representing ownership of a digital asset stored on IPFS",
+  "image": "ipfs://bafkreifnmwij3cmgzvcdvlnhumu47ubi25ahj7gdptjkrysz57p2ekufmu",
+  "attributes": [
+    {
+      "trait_type": "Asset Type",
+      "value": "Digital Image"
+    },
+    {
+      "trait_type": "Network",
+      "value": "Ethereum Sepolia Testnet"
+    }
+  ]
+}
